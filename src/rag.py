@@ -17,7 +17,7 @@ splitter = RecursiveCharacterTextSplitter(
     chunk_overlap=50
 )
 doc_chunks = splitter.split_documents(docs)
-print(len(doc_chunks))
+
 embeddings = GoogleGenerativeAIEmbeddings(
     model="gemini-embedding-001",
     output_dimensionality=768,

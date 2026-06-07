@@ -1,8 +1,11 @@
-fastapi
-uvicorn
 langchain
+langchain-core
 langchain-community
 faiss-cpu
 python-dotenv
 langchain-text-splitters
 langchain-google-genai
+pypdf
+pymupdf
+sentence-transformers
+chromadb
